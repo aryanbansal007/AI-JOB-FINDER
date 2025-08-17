@@ -797,4 +797,15 @@ function SearchTool() {
   );
 }
 
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<SearchTool />} />
+        <Route path="/presentation" element={<PresentationPage />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
+
 export default App;

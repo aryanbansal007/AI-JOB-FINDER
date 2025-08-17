@@ -572,7 +572,13 @@ function SearchTool() {
                 <p className="text-xs text-slate-600 font-medium">AI-Powered Job Classification</p>
               </div>
             </div>
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center space-x-4">
+              <Link to="/presentation">
+                <Button variant="outline" className="flex items-center gap-2">
+                  <Presentation className="w-4 h-4" />
+                  View Presentation
+                </Button>
+              </Link>
               <Badge variant="outline" className="text-indigo-700 border-indigo-200 bg-indigo-50">
                 NCO-2015 Compliant
               </Badge>

@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import "./App.css";
-import { Search, FileText, Users, TrendingUp, ChevronRight, Award, Clock, Target, Zap } from "lucide-react";
+import { Search, FileText, Users, TrendingUp, ChevronRight, Award, Clock, Target, Zap, ArrowRight, ArrowDown, Database, Brain, Cpu, Globe, Settings, BarChart3, CheckCircle, XCircle, ArrowDownRight, ArrowUpRight, Play, Presentation } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "./components/ui/card";
 import { Button } from "./components/ui/button";
 import { Input } from "./components/ui/input";
 import { Badge } from "./components/ui/badge";
+import { BrowserRouter, Routes, Route, Link, useNavigate } from "react-router-dom";
 
 // Mock data for demonstration
 const mockJobResults = {

@@ -40,7 +40,7 @@ const stats = [
   { label: "Accuracy Rate", value: "95%", icon: Target }
 ];
 
-function App() {
+function SearchTool() {
   const [searchQuery, setSearchQuery] = useState("");
   const [searchResults, setSearchResults] = useState([]);
   const [isSearching, setIsSearching] = useState(false);
